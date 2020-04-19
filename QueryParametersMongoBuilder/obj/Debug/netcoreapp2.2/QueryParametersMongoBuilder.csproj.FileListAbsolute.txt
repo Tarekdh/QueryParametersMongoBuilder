@@ -1,0 +1,9 @@
+C:\Users\uid0896\source\repos\QueryParametersMongoBuilder\QueryParametersMongoBuilder\bin\Debug\netcoreapp2.2\QueryParametersMongoBuilder.deps.json
+C:\Users\uid0896\source\repos\QueryParametersMongoBuilder\QueryParametersMongoBuilder\bin\Debug\netcoreapp2.2\QueryParametersMongoBuilder.dll
+C:\Users\uid0896\source\repos\QueryParametersMongoBuilder\QueryParametersMongoBuilder\bin\Debug\netcoreapp2.2\QueryParametersMongoBuilder.pdb
+C:\Users\uid0896\source\repos\QueryParametersMongoBuilder\QueryParametersMongoBuilder\obj\Debug\netcoreapp2.2\QueryParametersMongoBuilder.csprojAssemblyReference.cache
+C:\Users\uid0896\source\repos\QueryParametersMongoBuilder\QueryParametersMongoBuilder\obj\Debug\netcoreapp2.2\QueryParametersMongoBuilder.csproj.CoreCompileInputs.cache
+C:\Users\uid0896\source\repos\QueryParametersMongoBuilder\QueryParametersMongoBuilder\obj\Debug\netcoreapp2.2\QueryParametersMongoBuilder.AssemblyInfoInputs.cache
+C:\Users\uid0896\source\repos\QueryParametersMongoBuilder\QueryParametersMongoBuilder\obj\Debug\netcoreapp2.2\QueryParametersMongoBuilder.AssemblyInfo.cs
+C:\Users\uid0896\source\repos\QueryParametersMongoBuilder\QueryParametersMongoBuilder\obj\Debug\netcoreapp2.2\QueryParametersMongoBuilder.dll
+C:\Users\uid0896\source\repos\QueryParametersMongoBuilder\QueryParametersMongoBuilder\obj\Debug\netcoreapp2.2\QueryParametersMongoBuilder.pdb

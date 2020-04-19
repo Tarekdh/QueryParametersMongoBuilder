@@ -1,0 +1,5 @@
+C:\Users\uid0896\source\repos\QueryParametersMongoBuilder\QueryParametersMongoBuilder\bin\Debug\netcoreapp3.1\QueryParametersMongoBuilder.deps.json
+C:\Users\uid0896\source\repos\QueryParametersMongoBuilder\QueryParametersMongoBuilder\bin\Debug\netcoreapp3.1\QueryParametersMongoBuilder.dll
+C:\Users\uid0896\source\repos\QueryParametersMongoBuilder\QueryParametersMongoBuilder\obj\Debug\netcoreapp3.1\QueryParametersMongoBuilder.csprojAssemblyReference.cache
+C:\Users\uid0896\source\repos\QueryParametersMongoBuilder\QueryParametersMongoBuilder\obj\Debug\netcoreapp3.1\QueryParametersMongoBuilder.AssemblyInfoInputs.cache
+C:\Users\uid0896\source\repos\QueryParametersMongoBuilder\QueryParametersMongoBuilder\obj\Debug\netcoreapp3.1\QueryParametersMongoBuilder.AssemblyInfo.cs
