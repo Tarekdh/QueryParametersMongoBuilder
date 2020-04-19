@@ -39,7 +39,7 @@ namespace QueryParametersMongoBuilder.Models
                 PropertyType = prop.PropertyType;
                 
             }
-            else if (Key.Contains("."))
+            else
             {
                 var newKey = "";
                 var properties = Key.Split(".").ToList();
@@ -48,6 +48,13 @@ namespace QueryParametersMongoBuilder.Models
                 foreach (var item in properties)
                 {
                     newProperty = IdentifierManager<T>.GetPopertyFromType(currentType, item);
+                    if (newProperty == null)
+                    {
+                        currentType = null;
+                        newKey = Key;
+                        //newKey += newKey == "" ? item : $".{ item}";
+                        break;
+                    }
                     newKey += newKey == "" ? newProperty.Name : $".{ newProperty.Name}";
                     currentType =newProperty.PropertyType;
                     if (currentType.IsGenericType && currentType.GetGenericTypeDefinition() == typeof(List<>))
@@ -65,6 +72,10 @@ namespace QueryParametersMongoBuilder.Models
             if(Value == null)
             {
                 Value = BsonNull.Value;
+                return;
+            }
+            if (PropertyType == null)
+            {
                 return;
             }
             if (Value == "[]")
