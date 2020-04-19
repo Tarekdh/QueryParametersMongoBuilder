@@ -36,7 +36,7 @@ namespace QueryParametersMongoBuilder
                 try
                 {
                     var sortBuilder = Builders<T>.Sort;
-                    var sortStr = _httpContextAccessor.HttpContext.Request.Query.ContainsKey("$orderBy").ToString();
+                    var sortStr = _httpContextAccessor.HttpContext.Request.Query["$orderBy"].ToString(); ;
                     foreach (var s in sortStr.Split(","))
                     {
                         var items = s.Replace("desc","").Replace("asc","").Replace(" ","").Split("/");
@@ -53,6 +53,7 @@ namespace QueryParametersMongoBuilder
                                 if (newProperty == null)
                                 {
                                     key += key == "" ? i : $".{ i}";
+                                    continue;
                                 }
                                 key += key == "" ? newProperty.Name : $".{ newProperty.Name}";
                                 currentType = newProperty.PropertyType;
