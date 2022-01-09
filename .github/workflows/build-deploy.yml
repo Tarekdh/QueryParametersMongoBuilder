@@ -3,7 +3,7 @@ name: nuget-build-deploy
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   build:
